@@ -21,7 +21,7 @@
 
 
 
-const cards = document.querySelector("cards-container");
+const cards = document.querySelector(".cards-container");
 
 axios
   .get ("https://lambda-times-backend.herokuapp.com/articles")
